@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gutlapalli Gnanadeep's Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .top ul {
+            display: flex;
+            color: #d9534f;
+            font-size: 20px;
+            list-style: none;
+            margin-top: 20px;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .top ul li {
+            margin: 0 15px;
+        }
+
+        .top ul a {
+            color: #d9534f;
+            text-decoration: none;
+        }
+
+        .top ul a:hover {
+            font-size: 1.45rem;
+        }
+
+        header {
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .box img {
+            width: 169px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .cont {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+
+        .cont h1 {
+            margin: 10px 0;
+        }
+
+        #hii {
+            transition: all 1s ease-in;
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .left-column,
+        .right-column {
+            width: 45%;
+        }
+
+        .left-column p,
+        .right-column p {
+            margin: 5px 0;
+        }
+
+        .left-column {
+            text-align: left;
+        }
+
+        .right-column {
+            text-align: right;
+        }
+
+      
+        .project-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project-item {
+            width: 500px; 
+            margin-bottom: 10px;
+            margin-top: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Certificates">Certificates</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="container" id="Home">
+            <div class="box" id="box1">
+                <img src="photo.jpeg" alt="hi" id="hii">
+            </div>
+            <div class="cont">
+                <h1>Gutlapalli Gnanadeep</h1>
+                <h1>I am a <span id="element"></span></h1>
+                <p></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="section" id="Education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="left-column">
+                <b>Bachelor of Engineering and Technology in CSE-(AI&ML)</b>
+                <p>CMR College of Engineering and Technology</p>
+                <p>(11/2021-Present)</p>
+            </div>
+            <div class="right-column">
+                <p><b>CGPA:</b> 8.56</p>
+            </div>
+        </div>
+        <div class="education-item">
+            <div class="left-column">
+                <b>Intermediate</b>
+                <p>Sri Chaitanya College</p>
+                <p>(2019-2021)</p>
+            </div>
+            <div class="right-column">
+                <p><b>Percentage:</b> 87%</p>
+            </div>
+        </div>
+        <div class="education-item">
+            <div class="left-column">
+                <b>High School</b>
+                <p>Sri Chaitanya School</p>
+                <p>(2013-2019)</p>
+            </div>
+            <div class="right-column">
+                <p><b>CGPA:</b> 9.70</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="Projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-item">
+                <b>Smart Public Tap:</b>
+                <p>It is a hardware project used to detect the <br>
+                    vessel weight and height of water and turns off <br>
+                    the tap automatically, preventing water wastage</p>
+            </div>
+            <div class="project-item">
+                <b>Note Taking site:</b>
+                <p>A note-taking site/app allows users to efficiently capture, organize,<br>
+                    and retrieve notes, ideas, and tasks, offering features like text <br>
+                    formatting, multimedia integration, and cloud synchronization</p>
+                <button id="noteTakingSiteBtn">View</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="Skills">
+        <h2>Skills</h2>
+        <p>
+            
+        </p>
+    </div>
+
+    <div class="section" id="Certificates">
+        <h2>Certificates</h2>
+        <p>
+          
+        </p>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="port.js">
+       
+    </script>
+
+</body>
+
+</html>
